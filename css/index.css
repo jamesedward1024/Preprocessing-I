@@ -1,1 +1,248 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+body,
+html {
+  background-color: #0c0c0c;
+}
+p,
+span,
+li,
+table,
+td,
+th,
+a,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 1rem;
+}
+h1,
+h2 {
+  font-weight: 700;
+}
+h3,
+h4,
+th {
+  font-weight: 500;
+}
+p,
+span,
+li,
+a,
+td {
+  font-weight: 300;
+}
+h1,
+h2 {
+  font-size: 2.7rem;
+}
+h3 {
+  font-size: 2.3rem;
+}
+h4 {
+  font-size: 1.9rem;
+}
+p,
+li,
+a,
+td {
+  font-size: 0.9rem;
+}
+.site-container {
+  max-width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #0c0c0c;
+  overflow: hidden;
+}
+.site-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0;
+}
+.site-header nav {
+  width: 100%;
+}
+.site-header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+.site-header nav ul li a {
+  text-decoration: none;
+}
+.resume-intro .bio-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.resume-intro hr {
+  margin: 30px 0;
+}
+.resume-intro .cta-btn {
+  margin: 20px auto;
+  padding: 10px 25px;
+  background-color: #76bed0;
+  color: #ffffff;
+  border: none;
+}
